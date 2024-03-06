@@ -1,0 +1,89 @@
+body{
+    background-color:gainsboro;
+}
+.divhome,.divlogin,.divabout,.divcontact,.divregister{
+    position: fixed;
+    width: 99%;
+    margin-top: 8%;
+    display: flex;
+    height:16cm;
+}
+.side1{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 1%;
+    margin:1%;
+}
+.side2{
+    position: relative;
+    width: 50%;
+    float: right;
+    margin: 1%;
+}
+.title{
+    background-image:linear-gradient(90deg,rgb(42,42,42),rgb(65,222,206),rgb(42,42,42),rgb(65,222,206));
+    background-clip: text;
+    margin-left: 2%;
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: calc(1em /16);
+    color:rgb(42,42,42);
+    font-size: 90px;
+}
+.btn{
+    font-size: 20px;
+    border: 3px solid rgb(65,222,206);
+    margin-left: 21%;
+    color: rgb(42,42,42);
+    padding: 10px 30px 10px 30px;
+    border-top: hidden;
+    text-decoration: none;
+    border-right: hidden;
+    text-transform: uppercase;
+}
+.btnsp{
+    color: rgb(65,222,206);
+}
+.btn:hover .btnsp{
+    color: rgb(42,42,42);
+}
+.btn:hover{
+    border: 3px solid rgb(65,222,206);
+    border-top: hidden;
+    color: rgb(65, 222, 206);
+    border-left: hidden;
+}
+.logo1{
+    margin-top: 8%;
+    margin-left: 2.3%;
+    border-radius: 25px;
+}
+.p1{
+    margin-top: -30px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+.logoa{
+    margin-left: 20%;
+    margin-top: 10%;
+    animation: moveUpDown 2s infinite;
+}
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+.shadow{
+    background:radial-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.7),rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.3),rgba(0,0,0,0.2),rgba(0,0,0,0.1),gainsboro,white);
+    width: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    margin-top: -5%;
+    opacity: 0.3;
+    margin-left: 7.4cm;
+    height: 50px;
+    animation: moveUpDown 2s infinite;
+}

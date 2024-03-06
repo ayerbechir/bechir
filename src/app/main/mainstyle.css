@@ -1,0 +1,241 @@
+.head{
+    background-color:rgb(248, 244, 244);
+    position: fixed;
+    width: 99%;
+    border: 2px solid rgba(0,0,0,0.2);
+    top: 1%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    left: 0%;
+    height: 50px;
+}
+.topicon {
+    width: 40px;
+    margin-left: 10%;
+    margin-top: 0.3%;
+    animation: pulseSlideIn 4s ease-in-out infinite;
+}
+
+@keyframes pulseSlideIn {
+    0%, 100% {
+        opacity: 1;
+        transform: translateX(-10%);
+    }
+    50% {
+        opacity: 0.2;
+        transform: translateX(0);
+    }
+}
+.logoname{
+    color :rgba(67,66,66);
+    position:fixed;
+    margin-top: -2.7%;
+    font-family: fantasy;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 14%;
+}
+.navbar2{
+    background-color:rgb(248, 244, 244);
+    border: 2px solid rgba(0,0,0,0.2);
+    position: fixed;
+    top: 8%;
+    border-end-end-radius: 25px;
+    left: 0%;
+    height: 18.5cm;
+    width: 300px;
+}
+.zoneinput{
+    margin-top: 5%;
+    margin-left: 1%;
+    border: 2px solid black;
+    border-top: hidden;
+    width: 7cm;
+    border-right: hidden;
+}
+.input{
+    padding: 7px;
+    width: 6cm;
+    border: hidden;
+    background-color:rgb(248, 244, 244);
+    
+}
+.icon4{
+    width: 18px;
+    margin-top: 2px;
+    margin-left: 4%;
+}
+.labelhere{
+    width: 50%;
+    border-radius: 25px;
+    height: 13cm;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin: 5% 20% 20% 22%;
+    background-color:rgb(248, 244, 244);
+}
+.nav12{
+    background-color:rgb(248, 244, 244);
+    position: absolute;
+    border: 1px solid rgba(0,0,0,0.5);
+    height: 1cm;
+    left: 22%;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 25px;
+    top: 80%;
+    width: 50%;
+}
+.navrech{
+    background-color:rgb(248, 244, 244);
+    position: absolute;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 25px;
+    height: 63%;
+    top: 10%;
+    right: 1%;
+    width: 25%;
+}
+.inputhere{
+    position:relative;
+    top: 10%;left: -2%;
+    width: 16cm;
+    font-weight: bold;
+    color :rgba(67,66,66);
+    height: 25px;
+    border-radius: 25px;
+
+}
+.microicon{
+    width: 22px;
+    margin-left: 3%;
+    transition: transform 0.3s ease;
+
+}
+.suttingicon{
+    position: relative;
+    right: 4%;
+    transition: transform 0.3s ease;
+    width: 28px;
+}
+.suttingicon:hover{
+    transform: rotate(360deg);
+}
+.microicon:hover{
+    transform: rotate(360deg);
+
+}
+.gmgpt{
+    text-decoration: none;
+    color :rgba(67,66,66);
+}.topic{
+    border:2px dashed rgb(158, 157, 157);
+    border-radius: 25px;
+    width:85%;left: 6%;position: relative;top:4%;height: 70%;
+}
+.sub{
+    position: relative;
+    top: 8%;
+    left: 7%;
+    text-decoration: none;
+}
+.sub2{
+    border:3px solid rgb(65,222,206);
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    color: rgba(67,66,66);
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sub2:hover{
+    color:rgb(65,222,206);
+    border: 3px solid rgba(67,66,66);
+}
+.hr{
+    margin-top: 11%;
+    width: 90%;
+}
+.ad{
+    text-decoration: none
+}
+.add{
+    text-align: center;
+    position: relative;
+    color: rgba(67,66,66);
+    font-size: 100px;
+    margin-top: 5%;
+    animation: spin 10s infinite;
+    
+}
+.addp{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(65,222,206);
+    
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(90deg);
+    }
+}
+.spanp{
+    color: rgba(67,66,66);
+}
+.padd{
+    text-align: center;
+    margin-top: -3%;
+}
+.stepa{
+    margin-left: 23%;
+}
+.step2{
+    position: relative;
+    margin-top: 58%;
+    margin-left: 2%;
+    animation: trans 2s infinite;
+}
+.chatnow{
+    height: 50px;
+    width: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: 1%;
+    border: 1px dashed black;
+    margin-top: 52%;
+}
+.parag{
+    font-size: 13px;
+    padding: 2px;
+    font-weight: bold;
+    
+
+}
+@keyframes trans {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+.user{
+    float: right;
+    background-color:#dcdcdc;
+    border: 1px solid black;
+    width: 40px;
+    margin-top: 0.3%;
+    margin-right:0.5%;
+    border-radius: 25px;
+    height: 40px;
+}
+.mohsen{
+    float: right;
+    margin-right: 0.5%;
+}

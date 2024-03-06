@@ -1,0 +1,33 @@
+.formN{
+    background-color: rgb(238, 228, 228);
+    margin-top: 2%;
+    margin-bottom:2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    width: 550px;
+    margin-left:32%;
+}
+.passN{
+    width: 300px;
+    margin-left: 15%;
+    border: 3px solid;
+    margin-top: 25%;
+    padding: 20px;
+    border-top: hidden;
+    border-right: hidden;
+    background-color: rgb(238, 228, 228);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nextbtn{
+    margin-left: 300px;
+    position: fixed;
+    margin-top: 2.5%;
+    text-decoration: none;
+    border-radius: 25px;
+    color: rgb(42,42,42);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: gainsboro;
+    padding: 20px 60px 20px 60px;
+}

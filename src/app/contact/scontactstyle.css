@@ -1,0 +1,79 @@
+.tem1{
+    position: relative;
+    width: 30%;
+    height: 80%;
+    margin: 5%;
+}
+.divcontact{
+    display: flex;
+    flex-direction:row;
+}
+.tem2{
+    position: relative;
+    margin-top: 5%;
+    width: 59%;
+    height: 80%;
+}
+.boticon{
+    margin-top: 8%;
+    animation: side 20s ease-in-out infinite;
+    color: red;
+}
+@keyframes side {
+    0%, 100% {
+        opacity: 1;
+        transform: translateX(-10%);
+    }
+    50% {
+        opacity: 0.2;
+        transform: translateX(0);
+    }
+}
+.isform{
+    margin: 2%;
+}
+.divform{
+    padding: 10px;
+}
+.int{
+    width: 300px;
+    height: 30px;
+    background-color: #dcdcdc;
+    border-top: hidden;
+    border-right: hidden;
+}
+.lab{
+    font-size: 15px;
+    font-weight: bold;
+}
+.int2{
+    background-color: #dcdcdc;
+    border-top: hidden;
+    border-right: hidden;
+}
+.doom{
+    position: relative;
+    display: inline;
+    font-size:20px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 40px 10px 10px;
+    float: right;
+    margin-right:15%;
+    margin-top: -8.8%;
+    border-top: hidden;
+    border-right: hidden;
+    color:rgb(42,42,42);
+    
+}
+.doom:hover{
+    color:rgb(65,222,206);
+}
+.content{
+    width: 30%;
+    height: 5%;
+    background-color: red;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}

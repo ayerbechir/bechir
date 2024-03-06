@@ -1,0 +1,14 @@
+.divfooter{
+    color:rgb(29, 28, 28);
+    position:absolute;
+    bottom:2%;
+    left: 45%;
+}
+.divfooter:hover{
+    color: rgb(65, 222, 206);
+}
+.robot2{
+    margin-top: 46%;
+    margin-left: 95%;
+}
+

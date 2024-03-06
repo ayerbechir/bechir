@@ -1,0 +1,46 @@
+.side11{
+    position: relative;
+    width: 90%;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(233, 230, 230);
+    overflow: hidden;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.pabout{
+    padding: 10px;
+}
+.meboot{
+    font-size: 45px;
+    color:rgb(42,42,42);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pboot{
+    text-align: center;
+    font-style: italic;
+    text-decoration:underline;
+}
+.cont{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    margin:5% 2% 5% 2%;
+    justify-content: space-between;
+}
+
+.p1boot{
+    text-align: center;
+    color:rgb(42,42,42);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.vid{
+    width: 450px;
+    justify-content:space-evenly;
+    padding:10px;
+    border:outset;
+    border-radius: 25px;
+}

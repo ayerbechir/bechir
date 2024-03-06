@@ -1,0 +1,35 @@
+.div1{
+    position: fixed;
+    padding: 25px;
+    width: 50%;
+    left: 55%;
+    top: 6%;
+}
+.linkhere{
+    color: rgb(42, 42, 42);
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+    padding: 20px;
+    left: 20%;
+}
+.linkhere:active{
+    color: rgb(65, 222, 206);
+}
+.logname {
+    color: rgb(67, 66, 66);
+    position: relative;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 40px;
+    
+    left: 0%;
+}
+.div0{
+    position: fixed;
+    top: 3%;
+    padding: 25px;
+    left: 10%;
+}
+
+
